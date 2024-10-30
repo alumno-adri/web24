@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso HTML5-CSS3</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container shadow">
+        <header>
+            <div class="row align-items-center">
+                <div class="col-3"><img src="img/am.png" alt="logo" width="170" ></div>
+                <div class="col-9">
+                    <span id="btnmenu" onclick="opendrawer()">&#9776;</span>
+                    <nav id="menu">
+                        <ul class="text-right">
+                            <li>
+                                <a href="index.html">
+                                    Home
+                                </a>
+                            </li>
+                            <li>
+                                <a href="parrafos.html">
+                                    Párrafos
+                                </a>
+                            </li>
+                            <li>
+                                <a href="enlaces.html">
+                                    Enlaces
+                                </a>
+                            </li>
+                            <li>
+                                <a href="listas.html">
+                                    Listas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="tablas.html">
+                                    Tablas
+                                </a>
+                            </li>
+                            <li>
+                                <a href="formularios.html">
+                                    Formularios
+                                </a>
+                            </li>
+                            <li>
+                                <a href="multimedia.html">
+                                    Multimedia
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+
+
+        </header>
+        <main class="shadow">
+            <div class="px-3">
+                <h1 class="text-center bg-azul-o text-white py-3">HTML5 & CSS3</h1>
+            </div>
+            <div class="px-3">
+                <hr>
+            </div>
+            <div class="p-3">
+                <div id="home" class="py-3">
+                    <h2 class="text-center">FORMULARIO</h2>
+                <form action="#" method="get" class="formlogin">
+                    <fieldset>
+                        <legend>Login</legend>
+                        <p>
+                            <input type="text" name="user" id="" placeholder="User">
+                        </p>
+                        <p>
+                            <input type="password" name="pass" id="" placeholder="Clave">
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar">
+                        </p>
+                    </fieldset>
+                </form>
+                <form action="#" method="get" class="formgister">
+                    <fieldset>
+                        <legend>Registro</legend>
+                        <p> <label for="">Imput type text:</label>
+                        <input type="text" name="user" id^="">
+                        </p>
+                        <p>
+                            <label for="">Input type password:</label>
+                            <input type="password" name="pass" id="">
+                        </p>
+                        <p>
+                            <label for="">Provincia:</label>
+                            <select name="Provincia" id="">
+                                <option value="1">Toledo</option>
+                                <option value="2">Cuenca</option>
+                                <option value="3">C. Real</option>
+                                <option value="4">Guadalajara</option>
+                                <option value="5">Albacete</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="">Aficiones:</label>
+                            <input type="checkbox" name="cine" id=""> Cine <br/>
+                            <input type="checkbox" name="deportes" id=""> Deportes<br/>
+                            <input type="checkbox" name="viajar" id=""> Viajar<br/>
+                            <input type="checkbox" name="fiesta" id=""> Fiesta<br/>
+                        </p>
+                        <p>
+                        <label for="">Sexo:</label>
+                        <input type="radio" name="Sexo" id=""> Hombre<br/>
+                        <input type="radio" name="Sexo" id=""> Mujer<br/>
+                        <input type="radio" name="Sexo" id=""> No te importa<br/>
+                        <input type="radio" name="Sexo" id=""> Lo que yo quiera<br/>
+                        </p>
+                        <p>
+                        <label for="">Comentario:</label><br/>
+                        <textarea name="comment" id="" cols="70" rows="7"></textarea>
+                        </p>
+                        <p>
+                          <input type="file" name="foto" id="">
+                        </p>
+                        <p>
+                            <input type="submit" value="Enviar" id="btn btn-red">
+                        </p>
+
+                    </fieldset>
+                </form>
+                <div class="cb"></div>
+                <h3 class="text-center">FORMULARIO CON ELEMENTOS HTML5</h3>
+                <form action="kk.php" method="post" class="formhtml5">
+                    <fieldset>
+                        <legend>Inputs HTML5</legend>
+                        <p><label for=""></label></p>
+                    </fieldset>
+                </form>
+            </div>
+            </div>
+
+        </main>
+        <footer>
+            <h1 class="bg-azul-o text-center text-white py-3">&copy; Adrián Robles</h1>
+        </footer>
+    </div>
+    <script>
+        function opendrawer() {
+            document.getElementById('menu').style.display = 'block';
+            document.getElementById('menu').style.witdh = '100%';
+        }
+    </script>
+</body>
+
+</html>
