@@ -294,6 +294,46 @@ background-color: aquamarine;
 .estrechar1{
     width: 200px;
 }
+.formlogin{
+    float: left;
+    width: 50%;
+}
+.cb{
+    clear: both;
+}
+.formregister{
+    float: right;
+    width: 50%;
+}
+.formhtml5 {
+    width: 50%;
+    margin: 0 auto;
+    background-color: aquamarine;
+}
+.formhtml5 legend {
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 34, 255);
+    font-size: 22px;
+}
+.formhtml5 label {
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 34, 255);
+    font-size: 16px;
+}
+.btn {
+    border: 0;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.btn-blue {
+    background-color: rgb(16, 248, 217);
+    color: white;
+}
+.btn-green {
+    background-color: rgb(4, 44, 14);
+    color: rgb(177, 245, 174);
+}
 .col3{
     width: 33.3%;
     float: left;
