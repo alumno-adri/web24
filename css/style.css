@@ -157,11 +157,6 @@ a {
     padding: 16px;
 }
 
-.titulo{
-    color: red;
-    
-}
-
 .bg-azul-o {
     background-color: rgb(0, 222, 185);
 }
@@ -186,9 +181,6 @@ footer h1 {
     border-bottom-right-radius: 10px;
 }
 
-h1 {
-    margin: 0;
-}
 
 #btnmenu {
     font-size: 40px;
@@ -243,6 +235,10 @@ background-color: aquamarine;
 
 .fila-amarillo {
     background-color: yellow;
+}
+
+.izquierda{
+    text-align: left;
 }
 
 .horario{
@@ -356,4 +352,34 @@ video{
     display:block;
     width: 50%;
     margin: 0 auto;
+}
+audio{
+    display:block;
+    margin: 0 auto;
+}
+
+.titulo {
+    color:rgb(213, 212, 212);
+    text-shadow:
+    0 0 10px rgba(0, 255, 187, 0.4) ,
+    0 0 20px rgba(0, 255, 187, 0.5) ,
+    0 0 30px rgba(0, 255, 187, 0.6) ,
+    0 0 40px rgba(0, 255, 187, 0.7) ;
+}
+h1 {
+    color:black;
+    text-shadow:
+    0 0 10px rgba(0, 255, 255, 0.4) ,
+    0 0 20px rgba(0, 255, 255, 0.5) ,
+    0 0 30px rgba(0, 255, 255, 0.6) ,
+    0 0 40px rgba(0, 255, 255, 0.7) ;
+}
+h3 {
+    text-align: center;
+    color:black;
+    text-shadow:
+    0 0 5px rgba(246, 255, 0, 0.4) ,
+    0 0 10px rgba(246, 255, 0, 0.5) ,
+    0 0 20px rgba(246, 255, 0, 0.6) ,
+    0 0 30px rgba(246, 255, 0, 0.7) ;
 }
