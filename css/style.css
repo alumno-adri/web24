@@ -245,7 +245,9 @@ background-color: aquamarine;
     width: 80%;
     margin: 0 auto;
 }
-
+.bordeblanco{
+    background-color: white;
+}
 .bbdd{
     
     background-color: rgb(129, 255, 129);
@@ -286,6 +288,7 @@ background-color: aquamarine;
 }
 .letra1{
     color:rgb(55, 113, 114);
+    background-color: white;
 }
 .cursiva{
     font-style: italic ;
@@ -293,6 +296,8 @@ background-color: aquamarine;
 .dam{
     color: #3f828a;
     font-size: 24px;
+    background-color: white;
+
 }
 .estrechar1{
     width: 200px;
